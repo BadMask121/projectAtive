@@ -17,14 +17,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProjectActiv1Application {
 	
 	
-	@RequestMapping(value = "/")
-	public String hello() {
-		return "Hello World";
+	@RequestMapping(value = "/api/stocks/")
+	public String listStocks() {
+		
+		return "list";
 	}
 	
-	@RequestMapping(value = "/home")
-	public String home() {
-		return "Welcome To Home Page";
+	@RequestMapping(value = "/api/stocks/1")
+	public String getStockById(int id) {
+		return "Stock 1";
 	}
 
 	public static void main(String[] args) {
