@@ -1,5 +1,9 @@
 package com.example.demo;
 
+/**
+ * would improve if given the chance
+ * **/
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
