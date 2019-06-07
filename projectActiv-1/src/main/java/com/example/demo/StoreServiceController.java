@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableAutoConfiguration
 
-public class ProjectActiv1Application {
+public class StoreServiceController {
 	
 	
 	@RequestMapping(value = "/api/stocks/")
@@ -33,7 +33,7 @@ public class ProjectActiv1Application {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectActiv1Application.class, args);
+		SpringApplication.run(StoreServiceController.class, args);
 	}
 	
 
